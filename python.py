@@ -1,4 +1,4 @@
-"""x = [ [5,2,3], [10,8,9] ] 
+x = [ [5,2,3], [10,8,9] ] 
 students = [
      {'first_name':  'Michael', 'last_name' : 'Jordan'},
      {'first_name' : 'John', 'last_name' : 'Rosales'}
@@ -20,6 +20,7 @@ print( sports_directory['soccer'])
 #Change the value 20 in z to 30
 z[0]['y']=30
 print(z)
+# Create a function iterateDictionary(some_list) that, given a list of dictionaries, the function loops through each dictionary in the list and prints each key and the associated value. For example, given the following list:
 
 students = [
          {'first_name':  'Michael', 'last_name' : 'Jordan'},
@@ -40,9 +41,9 @@ def iterate_dictionary2(key_name,list):
             if key == key_name:
                 print(val)
 iterate_dictionary2('first_name',students)
-iterate_dictionary2('last_name',students)"""
+iterate_dictionary2('last_name',students)
 
-
+#Create a function printInfo(some_dict) that given a dictionary whose values are all lists, prints the name of each key along with the size of its list, and then prints the associated values within each key's list. 
 
 dojo = {
    'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
